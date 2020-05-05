@@ -1,0 +1,45 @@
+global-styling:
+  version: VERSION
+  css:
+    layout:
+      css/all.css: {}
+      css/custom.css: {}
+      css/bootstrap.css: {}
+      css/style.css: {}
+      css/slick.css: {}
+      css/slick-theme.css: {}
+      css/demos/*: {}
+      css/skins/*: {}
+      css/vendor/*: {}
+
+  js:
+    js/popper.min.js: {}
+    js/jquery.cookie.min.js: {}
+    js/bootstrap.min.js: {}
+    js/slick.js: {}
+    js/vendor/*: {}
+    js/custom.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/modernizr
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.ajax
+    - core/drupal.announce
+    - core/backbone
+    - core/jquery.once
+    - core/drupal.displace
+    - toolbar/toolbar.menu
+global-scripts:
+  version: 1.x
+  js:
+    js/main.js: {}
+    js/custom.js: {}
+
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700|Montserrat:400,500,600,700,800': { type: external, minified: true }
+
